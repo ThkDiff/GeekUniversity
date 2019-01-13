@@ -1,0 +1,27 @@
+.rootPane{
+    -fx-background-color: linear-gradient(to right, #673ab7, #dd2476);
+}
+
+.txtMsg{
+    -fx-padding: 0 19;
+    -fx-background-color: transparent, white, transparent,white;
+    -fx-background-insets: 0, 6, 0;
+    -fx-background-radius: 8em;
+}
+.button{
+    -fx-font-weight: bold;
+    -fx-background-color: #8904B1;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+.button:hover{
+    fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill:  #8904B1;
+    -fx-border-color: #8904B1 ;
+    -fx-border-radius: 20;
+    -fx-border-vidth: 3;
+}
